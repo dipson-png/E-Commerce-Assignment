@@ -32,7 +32,7 @@ nav ul li{
     text-decoration: underline;
 }
 p{
-    color: rgb(255, 140, 0);
+    color: rgb(18, 220, 79);
 }
 .container{
     max-width: 1300px;
@@ -62,5 +62,5 @@ p{
     padding: 50px;
     padding-left: 0;
     padding-right: 0;
-    
+
 }
