@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background:radial-gradient(green,aqua);
+    color:black;
+    text-align: center;
+    padding: 1em 0;
+    margin-bottom: 2em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 2em;
+}
+
+#explore {
+    text-align: center;
+}
+
+#explore h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #005b9a;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5em;
+    padding: 1em;
+}
+
+.category {
+    background:radial-gradient(green,aqua);
+    border: 1px solid #f8ecec;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(133, 13, 13, 0.1);
+    text-align: center;
+    padding: 1em;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.category img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.category h3 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    color: #222;
+}
+
+.category p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+footer {
+    background:radial-gradient(green,aqua);
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
