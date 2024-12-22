@@ -4,8 +4,6 @@ padding: 0;
 box-sizing: border-box;
 }
 .navbar{
-    
-    
     display: flex;
     align-items:center;
     padding: 5px;
@@ -97,7 +95,10 @@ p{
     margin-right: 0px;
     border-radius: 30px;
     position: relative;
-    left: 200px;
+    left: 125px;
+}
+.btn:hover{
+    background: radial-gradient(green,aqua);
 }
 .header{
     background: radial-gradient(green,aqua);
