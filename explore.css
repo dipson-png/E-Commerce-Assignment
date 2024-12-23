@@ -1,9 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .navbar{
+        display: flex;
+        align-items:center;
+        padding: 5px;
+        
+    }
+    nav{
+        flex: 1;
+        text-align: right;
+    }
+    nav ul{
+        display: inline-block;
+        list-style: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .navbar a{
+        text-decoration: none;
+        text-anchor: middle;
+        color: black;
+    }
+    .navbar a:hover{
+        text-decoration: underline;
+    }
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background:radial-gradient(green,aqua);
+    color: black;
 }
 
 header {
@@ -26,6 +57,7 @@ header p {
 
 main {
     padding: 2em;
+    background: radial-gradient(green,aqua);
 }
 
 #explore {
@@ -35,7 +67,8 @@ main {
 #explore h2 {
     font-size: 2em;
     margin-bottom: 1em;
-    color: #005b9a;
+    background: radial-gradient(green,aqua);
+    color: White;
 }
 
 .categories {
