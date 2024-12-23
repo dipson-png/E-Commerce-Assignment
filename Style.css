@@ -104,3 +104,14 @@ p{
     background: radial-gradient(green,aqua);
     height: 1007px;
 }
+footer {
+    background:radial-gradient(green,aqua);
+    color:black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer .footer-container p {
+    font-size: 14px;
+}

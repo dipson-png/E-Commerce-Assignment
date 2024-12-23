@@ -90,3 +90,8 @@ footer {
 footer .footer-container p {
     font-size: 14px;
 }
+header{
+    background: radial-gradient(green,aqua);
+    width: 100%;
+    height: auto;
+}
